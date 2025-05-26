@@ -16,7 +16,6 @@ jobs:
         pip install pyyaml
     - name: Run Feed Generator
       run: 
-        cd C:\Users\nunun\OneDrive\Desktop\Term 8_Local\podcast-test
         python feed.py
     - name: Push Repo
       run: |
