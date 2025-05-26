@@ -15,7 +15,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyyaml
     - name: Run Feed Generator
-      run: python feed.py
+      run: 
+        cd C:\Users\nunun\OneDrive\Desktop\Term 8_Local\podcast-test
+        python feed.py
     - name: Push Repo
       run: |
         git config user.name github-actions
